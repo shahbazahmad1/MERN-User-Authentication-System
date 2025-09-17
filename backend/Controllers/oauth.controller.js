@@ -1,4 +1,4 @@
-import { generateTokenAndSetCookie } from "../utils/generateTokenAndSetCookie.js";
+import { generateTokenAndSetCookie } from "../Utils/generateTokenAndSetCookie.js";
 
 export const googleLogin = async (req, res) => {
     try {

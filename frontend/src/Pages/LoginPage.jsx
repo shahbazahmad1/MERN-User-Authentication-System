@@ -51,7 +51,7 @@ const LoginPage = () => {
           </motion.button>
         </form>
         <button className='flex items-center justify-center gap-2 mt-4 w-full py-3 px-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold rounded-lg shadow-lg hover:from-green-600 hover:to-emerald-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-gray-600 transition duration-200'
-          onClick={() => { window.open(`${process.env.BACKEND_URL}/api/auth/google`, "_self") }}
+          onClick={() => { window.open(`${import.meta.env.VITE_BACKEND_URL}/api/auth/google`, "_self") }}
         ><img src={Google} className='w-5 h-5' />SignIn with Google</button>
       </div>
       <div className="px-8 py-4 bg-gray-900 bg-opacity-50 flex justify-center">
